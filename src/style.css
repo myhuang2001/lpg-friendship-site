@@ -1,0 +1,79 @@
+:root {
+  --main-bg: #FFF6F0;
+  --main-pink: #FFD6E0;
+  --main-yellow: #FFF2CC;
+  --main-green: #B5EAD7;
+  --main-blue: #C7CEEA;
+  --main-text: #6D6875;
+  --like-btn: #FFB7B2;
+  font-family: '思源黑体', '微软雅黑', 'Poppins', 'Roboto', sans-serif;
+}
+
+body {
+  background: var(--main-bg);
+  color: var(--main-text);
+  font-family: '思源黑体', '微软雅黑', 'Poppins', 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: var(--main-text);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--main-green);
+}
+
+button {
+  background: var(--main-pink);
+  border: none;
+  border-radius: 24px;
+  padding: 10px 24px;
+  color: var(--main-text);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: var(--main-green);
+}
+
+.card {
+  background: var(--main-yellow);
+  border-radius: 16px;
+  box-shadow: 0 2px 8px #ffd6e055;
+  padding: 24px;
+  margin: 16px 0;
+  transition: transform 0.2s;
+}
+.card:hover {
+  transform: translateY(-4px) scale(1.02);
+}
+
+.note {
+  display: inline-block;
+  min-width: 180px;
+  min-height: 120px;
+  border-radius: 12px;
+  margin: 12px;
+  padding: 16px;
+  font-family: '微软雅黑', cursive;
+  box-shadow: 0 2px 8px #b5ead755;
+  background: var(--main-yellow);
+  transition: transform 0.2s;
+}
+.note.pink { background: var(--main-pink);}
+.note.green { background: var(--main-green);}
+.note.blue { background: var(--main-blue);}
+.note.yellow { background: var(--main-yellow);}
+.note:hover { transform: scale(1.04);}
+
+input, textarea {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 8px;
+  margin: 8px 0;
+  width: 100%;
+  font-size: 1rem;
+}
