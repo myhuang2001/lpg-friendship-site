@@ -17,5 +17,10 @@
     "@vitejs/plugin-vue": "^5.2.3",
     "sass": "^1.89.2",
     "vite": "^6.3.5"
+  },
+  "engines": {
+  "node": "18.x"
   }
+
+  
 }
